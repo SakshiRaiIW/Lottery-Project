@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lottery Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  
+  <body>
+    <header>  <div> <h1> Let's test your LUCK!</h1></div></header>
+    <div class="outDiv">
+      <div class="sec1">
+        <img
+          width="550"
+          height="510"
+          src="https://wallpaperaccess.com/full/4244063.jpg" 
+          alt="image"
+        />
+      </div>
+      <div class="sec2">
+        <h1>LOTTERY GAME</h1>
+        <label class="input" for="inputNum">Enter a number (1-100):</label>
+        <input type="number" id="inputNum" min="1" max="100" />
+        <br />
+        <button onclick="play()" id="playBtn">PLAY</button>
+        <button onclick="reset()" id="resetBtn">RESET</button>
+        <div id="result"></div>
+      </div>
+    </div>
+  <script src="lottery.js"></script>
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Lottery </title>
+  <script src="lottery.js" defer></>
+  <link rel = "stylesheet" href = "style.css">
+</head>
+
+
+  <h1>Welcome to this Lottery Game! :)</h1>
+  <label for="inputNum">Enter a number (1-100):</label>
+  <input type="text" id="inputNum" placeholder="Enter number" min="1" max="100">
+  <br>
+  
+  <div style = "height : 100px"> </div>
+  <button onclick="startGame()">Start Game</button>
+  <div id="result"></div>
+<img src="https://www.pixelstalk.net/wp-content/uploads/2016/07/Wallpapers-pexels-photo.jpg" />
+  
+  <script>
+    function startGame() {
+      const inputNum = parseInt(document.getElementById("inputNum").value);
+      playGame(inputNum);
+    }
+  </script>
+  
+</body>
+</html> -->
